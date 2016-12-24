@@ -10,6 +10,9 @@ class Compile(models.Model):
     
     # use __str__ on python 3.x, but python 2.x, please use __unicode__
     def __str__(self):
+        return self.code
+        
+    def __str__(self):
         return self.result
         
     def __str__(self):
@@ -18,4 +21,4 @@ class Compile(models.Model):
 class CompileForm(ModelForm):
     class Meta:
         model = Compile
-        fields = ['code_field']
+        fields = ('code', 'result', 'time_cost', )
