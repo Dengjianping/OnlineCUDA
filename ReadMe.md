@@ -2,7 +2,7 @@
 
 ## Example
 This is example showed matrix multiplying operation.
-![cuda](onlinecompiler.jpg)
+![cuda](onlinecompiler.JPG)
 
 ## Tips for this server
 1. Windows 7 SP1 64-bit
